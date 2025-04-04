@@ -1,10 +1,14 @@
 import React from 'react'
+import { Navbar, Footer, Sidebar } from './components'
 
 const App = () => {
   return (
-    <div className='bg-amber-700 h-10.5'>
-      navbar
-    </div>
+    <>
+      <Navbar />
+      <Sidebar />
+
+
+    </>
   )
 }
 
