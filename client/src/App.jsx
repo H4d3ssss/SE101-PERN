@@ -4,7 +4,7 @@ import { Navbar, Footer, Sidebar } from "./components";
 const App = () => {
   return (
     <>
-
+      <Navbar />
     </>
   );
 };
