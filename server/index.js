@@ -11,7 +11,7 @@ const port = process.env.PORT;
 app.use(cors());
 app.use(express.json());
 
-const db = new pg.Client({
+const db = new pg.Pool({
   user: process.env.USERDB,
   host: process.env.HOSTDB,
   database: process.env.DATABASE,
